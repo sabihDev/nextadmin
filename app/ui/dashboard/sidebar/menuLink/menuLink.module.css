@@ -2,9 +2,9 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 10px;
+    padding: 8px 10px;
     cursor: pointer;
-    margin: 5px 0;
+    margin-block: 10px;
     border-radius: 15px;
 }
 

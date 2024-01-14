@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--bgSoft);
+    color: var(--text);
+    border-radius: 10px;
+}
+
+.title{
+    color: var(--textSoft);
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    gap:  20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    background: #2e374a;
+    border-radius: 10px;
+}
+
+.input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text);
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
