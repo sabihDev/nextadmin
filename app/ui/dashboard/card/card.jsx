@@ -2,7 +2,7 @@ import { MdSupervisedUserCircle } from "react-icons/md";
 import styles from "./card.module.css";
 
 const Card = () => {
-    const change =20;
+    const change = 20;
     return (
         <div className={styles.container}>
             <MdSupervisedUserCircle size={24} />
